@@ -16,5 +16,5 @@
     return view('welcome');
 }); */
 
-Route::get('/','ImageController@imageUpload');
-Route::post('/','ImageController@imageUploadPost');
+Route::get('/image-upload','ImageController@imageUpload');
+Route::post('/image-upload','ImageController@imageUploadPost');

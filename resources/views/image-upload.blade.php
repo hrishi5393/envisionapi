@@ -31,7 +31,7 @@
                 <img src="/images/{{ Session::get('path') }}">
             @endif
 
-            <form action="{{ url('/') }}" enctype="multipart/form-data" method="POST">
+            <form action="{{ url('/image-upload') }}" enctype="multipart/form-data" method="POST">
                 {{ csrf_field() }}
                 <div class="row">
                     <div class="col-md-12">
